@@ -1,11 +1,11 @@
 {
   "bin": {
-    "create-browser-extension": "bin/create-browser-extension.js"
+    "create-browser-extension-cli": "bin/create-browser-extension.js"
   },
   "name": "create-browser-extension-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cli tool to create browser extensions. Create a boilerplate project with common codebase and HMR for Chrome and firefox browsers.",
-  "main": "bin/create-browser-extension.js",
+  "main": "bin/main.js",
   "dependencies": {
     "commander": "^8.0.0",
     "inquirer": "^8.1.0",
