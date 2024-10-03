@@ -1,0 +1,18 @@
+{
+  "name": "cross-browser-extension",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:chrome": "webpack --config webpack/webpack.dev.js",
+    "build:chrome": "webpack --config webpack/webpack.prod.js --env browser=chrome",
+    "build:firefox": "webpack --config webpack/webpack.prod.js --env browser=firefox"
+  },
+  "devDependencies": {
+    "webpack": "^5.x",
+    "webpack-cli": "^4.x",
+    "webpack-dev-server": "^4.x",
+    "webpack-extension-reloader": "^1.1.x",
+    "babel-loader": "^8.x",
+    "babel-core": "^7.x",
+    "@babel/preset-env": "^7.x"
+  }
+}

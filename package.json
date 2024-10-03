@@ -1,0 +1,17 @@
+{
+  "bin": {
+    "create-browser-extension": "bin/create-browser-extension.js"
+  },
+  "name": "create-browser-extension-cli",
+  "version": "1.0.1",
+  "description": "A cli tool to create browser extensions. Create a boilerplate project with common codebase and HMR for Chrome and firefox browsers.",
+  "main": "bin/create-browser-extension.js",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "inquirer": "^8.1.0",
+    "fs-extra": "^10.0.0",
+    "chalk": "^4.1.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
